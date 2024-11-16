@@ -511,12 +511,9 @@ public class DriverProgram
                                                         scanner.nextLine(); 
                                                     }
                                                 }
-                                                // Verificar si la opción ingresada está en el rango permitido
-                                                try 
-                                                {
-                                                    if (opcion5 > 0 && opcion5 < 5)
-                                                    {
-                                                        // Continuar si es válida
+                                                scanner.nextLine();
+                                                try {
+                                                    if (opcion5 > 0 && opcion5 < 5){
                                                     }
                                                 } catch (Exception e) 
                                                 {
@@ -548,11 +545,9 @@ public class DriverProgram
                                                                 scanner.nextLine(); 
                                                             }
                                                         }
-                                                        try 
-                                                        {
-                                                            if (lista1 > 0 && lista1 < 3)
-                                                            {
-                                                                // Mostrar la lista seleccionada
+                                                        scanner.nextLine();
+                                                        try {
+                                                            if (lista1 > 0 && lista1 < 3){
                                                                 System.out.println(controlador.seleccionarListaMP3(lista1));
                                                             }
                                                         } 
@@ -670,12 +665,9 @@ public class DriverProgram
                                                             }
                                                         }
                                                         scanner.nextLine();
-                                                        try 
-                                                        {
-                                                            if (lista2 > 0 && lista2 < 3)
-                                                            {
-                                                                // Mostrar la lista seleccionada
-                                                                System.out.println(controlador.seleccionarListaCD(lista2));
+                                                        try {
+                                                            if (lista2 > 0 && lista2 < 3){
+                                                                System.out.println(controlador.seleccionarListaSpotify(lista2));
                                                             }
                                                         } 
                                                         catch (Exception e) 
@@ -810,7 +802,6 @@ public class DriverProgram
                                             try 
                                             {
                                                 opcion7 = scanner.nextInt();
-                                                scanner.nextLine();
                                                 inputValido19 = true; 
                                             } 
                                             catch (Exception e) 
@@ -819,11 +810,9 @@ public class DriverProgram
                                                 scanner.nextLine(); 
                                             }
                                         }
-                                        try 
-                                        {
-                                            if (opcion7 > 0 && opcion7 < 7)
-                                            {
-                                                // Aquí iría la validación de la opción, aunque no se usa en el código.
+                                        scanner.nextLine();
+                                        try {
+                                            if (opcion7 > 0 && opcion7 < 7){
                                             }
                                         } 
                                         catch (Exception e) 
@@ -968,20 +957,15 @@ public class DriverProgram
                                         try 
                                         {
                                             opcion8 = scanner.nextInt();
-                                            scanner.nextLine();
-                                            inputValido25 = true; // Si no hay excepción, la entrada es válida
-                                        } 
-                                        catch (Exception e) 
-                                        {
+                                            inputValido25 = true; 
+                                        } catch (Exception e) {
                                             System.out.println("Ingrese un valor valido");
                                             scanner.nextLine(); 
                                         }
-                                    }    
-                                    try 
-                                    {
-                                        if (opcion8 > 0 && opcion8 < 5)
-                                        {
-                                            // Verifica si la opción es válida
+                                    }
+                                    scanner.nextLine();    
+                                    try {
+                                        if (opcion8 > 0 && opcion8 < 5){
                                         }
                                     } 
                                     catch (Exception e) 
