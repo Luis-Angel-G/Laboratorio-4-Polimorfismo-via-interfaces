@@ -352,6 +352,7 @@ public class DriverProgram{
                                                         scanner.nextLine(); 
                                                     }
                                                 }
+                                                scanner.nextLine();
                                                 try {
                                                     if (opcion5 > 0 && opcion5 < 5){
                                                     }
@@ -377,6 +378,7 @@ public class DriverProgram{
                                                                 scanner.nextLine(); 
                                                             }
                                                         }
+                                                        scanner.nextLine();
                                                         try {
                                                             if (lista1 > 0 && lista1 < 3){
                                                                 System.out.println(controlador.seleccionarListaMP3(lista1));
@@ -570,13 +572,13 @@ public class DriverProgram{
                                         while (!inputValido19) {
                                             try {
                                                 opcion7 = scanner.nextInt();
-                                                scanner.nextLine();
                                                 inputValido19 = true; 
                                             } catch (Exception e) {
                                                 System.out.println("Ingrese un valor valido");
                                                 scanner.nextLine(); 
                                             }
                                         }
+                                        scanner.nextLine();
                                         try {
                                             if (opcion7 > 0 && opcion7 < 7){
                                             }
@@ -694,7 +696,8 @@ public class DriverProgram{
                                             System.out.println("Ingrese un valor valido");
                                             scanner.nextLine(); 
                                         }
-                                    }    
+                                    }
+                                    scanner.nextLine();    
                                     try {
                                         if (opcion8 > 0 && opcion8 < 5){
                                         }
