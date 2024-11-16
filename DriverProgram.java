@@ -471,7 +471,7 @@ public class DriverProgram{
                                                         scanner.nextLine();
                                                         try {
                                                             if (lista2 > 0 && lista2 < 3){
-                                                                System.out.println(controlador.seleccionarListaCD(lista2));
+                                                                System.out.println(controlador.seleccionarListaSpotify(lista2));
                                                             }
                                                         } catch (Exception e) {
                                                             System.out.println("Opcion no valida: " + e.getMessage());
@@ -690,7 +690,6 @@ public class DriverProgram{
                                     while (!inputValido25) {
                                         try {
                                             opcion8 = scanner.nextInt();
-                                            scanner.nextLine();
                                             inputValido25 = true; 
                                         } catch (Exception e) {
                                             System.out.println("Ingrese un valor valido");
