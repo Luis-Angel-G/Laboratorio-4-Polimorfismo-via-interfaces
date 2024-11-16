@@ -11,7 +11,7 @@
 
  public class ControladorRadios 
  {
-     Radio radio; // Instancia de la clase Radio que se controla mediante este controlador.
+     public Radio radio; // Instancia de la clase Radio que se controla mediante este controlador.
  
      /**
       * Constructor de la clase ControladorRadios.
