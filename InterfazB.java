@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * La interfaz InterfazB define los métodos necesarios para la impresión de tarjetas y la llamada al último usuario.
+ * La interfaz InterfazB define los métodos necesarios para la impresión de tarjetas y la llamada al último usuario, es
+ * la interfaz compartida entre los grupos de Radio B
 * @Project : Labaratorio 4
-* @author Julián Divas
+* @author (Creado en conjunto con los grpos de radio b del salón)
 * Creacion 08.11.2024
 * Ultima modificacion 15.11.2024
 * @File Name: InterfazB.java
